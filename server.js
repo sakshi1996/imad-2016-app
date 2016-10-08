@@ -4,6 +4,11 @@ var path = require('path');
 
 var app = express();
 app.use(morgan('combined'));
+var main={
+    title:'article-one|sakshi',
+    heading:'article-one',
+    content:'<p>this is my first article content.this is my first article content.this is my first article content.this is my first article content.</p><pthis is my first article content.this is my first article content.this is my first article content.this is my first article content.</p><p>this is my first article content.this is my first article content.this is my first article content.this is my first article content. </p>'
+};
 
 
 app.get('/', function (req, res) {
